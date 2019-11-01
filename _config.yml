@@ -63,14 +63,14 @@ avatar_link: / #默认为主页
 brand: /img/brand.jpg
 
 # 电子邮件
-email: 277133779@qq.com
+# email: 123053207@qq.com
 
 # 电子邮件下方的链接图标
 ## 新连接规则[name]: url | icon
 ## 使用fontawesome图标，只需要写图标名。github -> icon-github | fa-github
 ## http://http://fontawesome.dashgame.com/
 menu_link: 
-  github: https://github.com/codefine | github
+  github: https://github.com/etansens/ | github
 
 # 添加新菜单项遵循以下规则
 ## menu:
@@ -100,10 +100,10 @@ menu:
     #text: ABOUT
     #url: /about
     #icon: user
-  demo:
-    text: CUSTOM
-    url: /custom
-    icon: plus-square
+#  demo:
+#    text: CUSTOM
+#    url: /custom
+#    icon: plus-square
   #github:
     #url: https://github.com/codefine
     #target: _blank
@@ -161,24 +161,24 @@ show_last_updated: true
 # 版权信息copyright
 ## 位于文章底部
 ## hexo中所有变量及辅助函数等均可调用，具体请查阅 hexo.io
-postMessage: 转载注明出处，原文地址：<a href="<%- url_for(page.path).replace(/index\.html$/, "") %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, "") %></a>
+#postMessage: 转载注明出处，原文地址：<a href="<%- url_for(page.path).replace(/index\.html$/, "") %>" target="_blank" rel="external"><%- page.permalink.replace(/index\.html$/, "") %></a>
 
 # 打赏
 ## 可以在文章markdown中设置reward: false来取消本篇文章的打赏功能
 ## 全局取消直接注释下方配置
-reward:
-  title: 我们一起来让这个世界有趣一点
-  wechat: /img/reward-wechat.jpg     #微信
-  alipay: /img/reward-alipay.jpg     #支付宝
+#reward:
+#  title: 让爱来发电
+#  wechat: /img/reward-wechat.jpg     #微信
+#  alipay: /img/reward-alipay.jpg     #支付宝
 
 # 分享
 ## 内置6种分享途径，不需要的设置对应的为false
 ## 可以在文章markdown中设置share: false来取消本篇文章的打赏功能
 ## 全局取消直接注释下方配置
 share_items:
-  weibo: true
   wechat: true
-  qq: true
+  qq: true 
+  weibo: true
   facebook: false
   twitter: false
   google: false
@@ -197,13 +197,13 @@ toc:
 #####################
 
 # 固定页脚
-footer_fixation: false
+footer_fixation: true
 
 # 友情链接
 blogroll:
-  item1:
-    name: HOME
-    url: https://www.lujingtao.com
+#  item1:
+#    name: HOME
+#    url: https://www.lujingtao.com
   #item2:
     #name: gitee
     #url: https://www.gitee.com
@@ -212,7 +212,7 @@ blogroll:
     #url: https://www.coding.net
 
 # 版权起始年份
-since_year: 2017
+since_year: 2019
 
 # icp备案号
 ## 例如ICP_license: 京ICP备123456号

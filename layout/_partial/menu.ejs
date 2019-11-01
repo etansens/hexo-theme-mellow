@@ -1,7 +1,7 @@
 <aside id="menu" class="<%- is_post() && theme.auto_hide ? 'hide' : ''%>">
   <div class="inner flex-row-vertical">
     <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
-        <i class="icon icon-lg icon-close"></i>
+        <i class="icon icon-lg icon-angle-double-left"></i>
     </a>
     <div class="brand-wrap">
       <% if (theme.brand && theme.brand !== "/") { %>
@@ -15,11 +15,6 @@
         </a>
         <hgroup class="introduce">
           <h5 class="nickname"><%- config.author %></h5>
-          <a href="mailto:<%= theme.email %>" title="<%= theme.email %>" class="mail">
-            <% for (let i = 0; i < theme.email.length; i++) {%>
-              <span><%= theme.email[i] %></span>
-            <% } %>
-          </a>
         </hgroup>
         <% if (theme.menu_link) { %>
         <ul class="menu-link">
